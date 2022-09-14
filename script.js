@@ -59,7 +59,7 @@ John's team scored 89, 120 and 103 points, while Mark's team scored 116, 94 and
     operrator to take the decision. 
 5. Like before, change the scores to generate different winners, keeping in mind
     there might a draw.
-*/
+
 
 // 1. Calculating the average score for John's team and for Mark's
 
@@ -105,6 +105,7 @@ if (aveScoreJohn > aveScoreMark && aveScoreJohn > aveScoreMary) {
     console.log('It\'s a draw. All with an average score of: ' + aveScoreJohn)
 }
 
+// 5.
 aveScoreJohn = (100 + 141 +103) / 3
 console.log(aveScoreJohn)
 aveScoreMark = (116 + 194 + 50) / 3
@@ -122,6 +123,8 @@ if (aveScoreJohn > aveScoreMark && aveScoreJohn > aveScoreMary) {
     console.log('It\'s a draw. All with an average score of: ' + aveScoreJohn)
 }
 
+//testing the draw condition 
+
 aveScoreJohn = (10 + 10 +10) / 3
 console.log(aveScoreJohn)
 aveScoreMark = (10 + 10 + 10) / 3
@@ -138,3 +141,53 @@ if (aveScoreJohn > aveScoreMark && aveScoreJohn > aveScoreMary) {
 } else {
     console.log('It\'s a draw. All with an average score of: ' + aveScoreJohn)
 }
+
+
+*/
+/*******************************************************************
+ * Coding Challange 03
+ 
+John and his family went on a holiday and went to three different retuarants.
+The bills were $124, $48, and $265.
+
+To tip the waiter a fair amount, John created a simple tip calculator (as a function).
+He likes to tip 20% of the bill when the bill is less than $50, 15% when the bill is
+between $50 and $200, and 10% when the is overe $200.
+
+In the end, John would like to have two arrays:
+1) Containing all three Tips (one for each bill)
+2) Containg all three final paid amounts(bill + tip)
+
+*/
+
+// Sollution 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
