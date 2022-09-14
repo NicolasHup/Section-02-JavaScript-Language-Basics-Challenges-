@@ -145,7 +145,7 @@ if (aveScoreJohn > aveScoreMark && aveScoreJohn > aveScoreMary) {
 
 */
 /*******************************************************************
- * Coding Challange 03
+ * Coding Challenge 03
  
 John and his family went on a holiday and went to three different retuarants.
 The bills were $124, $48, and $265.
@@ -162,9 +162,37 @@ In the end, John would like to have two arrays:
 
 // Sollution 
 
+// Original array bills of the three different restuarants
+
+var bills = [124, 48, 265]
 
 
+// calculations 
 
+//first bill 
+var firstTip = 124 * 15/100
+
+
+//Second bill
+
+var secondTip = 48 * 20/100
+
+
+// third bill 
+var thirdTip = 265 * 10/100
+
+// 1) Tip Bills
+
+var tipBill = [firstTip, secondTip, thirdTip]
+
+console.log(tipBill)
+
+
+// 2)
+
+var billTip = [bills[0] + firstTip, bills[1] + secondTip, bills[2] + thirdTip]
+
+console.log(billTip)
 
 
 
